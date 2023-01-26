@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Rubik&display=swap');
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+} */
+
+.yellow-background{
+    width: 100%;
+    /* margin: 0px; */
+    height: fit-content;
+    padding-bottom: 4rem;
+    background-color: #ffe600;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.followers{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 0.5em;
+}
+.yellow-background .card{
+    /* border: 1px solid red; */
+    color: white;
+    font-size:1.2rem;
+    margin-top: 1em;
+    
+
+}
+.yellow-background a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 0.01em;
+    border-bottom: 2px solid white;
+}
+
+
+.homePage .heading{
+    /* border: 1px solid black; */
+    display: block;
+}
+
+.homePage .heading .h1{
+    margin-top: 3em;
+    font-weight: 700;
+    text-align: center;
+    color: #ffe600;
+}
+
+.homePage .heading .h2{
+    /* margin-top: 1em; */
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: white;
+}
+
+.Container{
+    margin-top: 4rem;
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    /* background-color: rgba(0, 0, 0, 0.874); */
+    color: white;
+    text-align: center;
+    padding: 25px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 
+.box{
+    
+   
+} */
+
+.Box{
+    /* flex-basis: 32.6%; */
+/* display: flex; */
+    margin: 17px;
+    height: 52vh;
+    width: 55%;
+    max-width: 20rem;
+    /* padding: 25px; */
+    /* box-shadow: 0px 0px 5px rgb(253, 252, 252); */
+    border-radius: 5px;
+    padding-top: 10%;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: rgba(14, 14, 14, 0.943);
+  
+}
+#box1{
+    border-bottom: 7px solid rgba(1, 162, 142, 0.39);  
+    /* margin-right: 30px; */
+
+}
+#box2{
+    border-bottom: 7px solid rgba(229, 48, 62, 0.39);   
+}
+#box3{
+    border-bottom: 7px solid rgba(55, 19, 253, 0.39);   
+}
+#box4{
+    border-bottom: 7px solid rgba(19, 120, 175, 0.39); 
+}
+#box5{
+    border-bottom: 7px solid rgba(26, 158, 253, 0.39);   
+}
+#box6{
+    border-bottom: 7px solid rgba(249, 113, 21, 0.39);   
+}
+.Container2{
+
+    /* height: 100vh; */
+    margin-top: 12rem;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.Container2 .yellow{
+    color: yellow;
+}
+
+.Container2 .Button{
+    float: right;
+    height: 9vh;
+    width: 12vw;
+    border-radius: 10px;
+    margin-top: -3rem;
+    font-size: 1rem;
+    background-color: #ffe600;
+    color: black;
+    font-weight: bold;
+}
+
+.Container2 .H{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.Container2 .image
+{
+    border-radius: 100%;
+    height: 15rem;
+    position: relative;
+    
+}
+
+.Container2 .Name
+{
+    text-align: center;
+    margin-top: 1rem;
+}
+.Container2 .CC
+{
+    text-align: center;
+    color: gray;
+    
+}
+.Container3{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+
+}
+
+
+
+.Container3 .log{
+    /* float: left; */
+    height: 5rem;
+    width: 10rem;
+    /* margin-left: 10%; */
+
+
+
+}
+.Container3 .Micro{
+   /* margin: auto; */
+    height: 5rem;
+    width: 10rem;
+    /* margin: 2%; */
+
+    
+}
+.Container3 .logo{
+    height: 5rem;
+    width: 10rem;
+    /* float: left; */
+
+}
+
+@media only screen and (min-width: 750px){
+    
+    .Container{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 25px 0px;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .homePage .heading .h1{
+        font-size: 1.5rem;
+    }
+    
+    .homePage .heading .h2{
+        font-size: 2rem;
+    }
+
+}
+

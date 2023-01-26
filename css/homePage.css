@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&family=Rubik:wght@300;400;700&display=swap');
+body{
+    background-color: #131516;
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.homePage{
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.homePage .headerIntroSection{
+    margin: 1.5rem;
+}
+
+.homePage #headerIllustractionImg{
+    width: 100%;
+    padding: 1rem 0px;
+    box-sizing: border-box;
+}
+
+.homePage .introSecTextContent #subHeading{
+
+    margin-top: 0.7rem;
+    font-size: 1.25rem;
+    max-width: 80%;
+
+}
+
+.homePage .introSecTextContent div.middle{
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  position:absolute;
+  margin:auto;
+  height:120px;
+  width:100%;
+ /*   text-align:center; */
+}
+.homePage .introSecTextContent .text-type-animation{
+ /*  text-transform:uppercase; */
+  font-size:1.55rem;
+  
+}
+.homePage .introSecTextContent .txt-rotate{
+  color:#ffe600;
+  font-weight: bold;
+}
+
+.homePage .headerIntroSection .actionButtons{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;    
+    gap: 0.5rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+
+
+}
+
+#buttonFilledRound{
+    padding: 0.5rem 0.85rem;
+    color: #000000;
+    background-color: #ffe600;
+    border-radius: 0.3rem;
+}
+
+#buttonOutlinedRound{
+    padding: 0.45rem 0.7rem;
+    color: #ffe600;
+    background-color: transparent;
+    border-color: #ffe600;
+    border-style: solid;
+    border-radius: 0.3rem;
+    border-width: 0.05rem;
+}
+
+.homePage .headerIntroSection a{
+    text-decoration: none;
+}
+
+.headerIntroSection .studentsCountSection{
+    min-width: 22rem;
+    margin: 3rem 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headerIntroSection .studentsCountSection #studentCounts{
+    position: relative;
+    right: 3rem;
+}
+
+.homePage .headerIntroSection .studsOverlayingProfiles{
+    width: 3rem;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    position: relative;
+}
+
+.homePage .placementSection{
+    margin: 2rem 0px;
+}
+
+.placementSection #sectionTag{
+    color: #ffe600;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0rem 2rem;
+} 
+
+.placementSection #heading{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0rem 2rem;
+} 
+
+.placementSection #subHeading{
+    font-size: 1.3rem;
+    margin-top: 0.8rem;
+    margin-bottom: 3rem;
+    padding: 0rem 2rem;
+}
+
+
+.courses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 750px){
+    
+    .homePage .headerIntroSection {
+        display: flex;
+        margin: 1.5rem;
+        flex-direction: row-reverse;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homePage #headerIllustractionImg {
+        width: 40%;
+    }
+    
+}

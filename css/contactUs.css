@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../media/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.BG {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    height: 60vh;
+    width: 98.7vw;
+    display: flex;
+}
+
+@media only screen and (max-width:1240px) {
+    .BG {
+        width: 100vw;
+    }
+}
+
+.Container1 {
+    /* border: 1px solid white; */
+    color: #ffe600;
+    height: 20vh;
+    width: 35vw;
+    margin-top: 7%;
+}
+
+.Container1 h1 {
+    font-size: 3.8vw;
+    margin-left: 15%;
+    /* border: 1px solid white; */
+}
+
+.Container1 p {
+    margin-left: 15%;
+    font-size: 1.4vw;
+}
+
+.Container2 {
+    display: flex;
+    width: 98.7vw;
+    height: 85vh;
+    background-color: rgb(27, 27, 27);
+
+}
+
+@media only screen and (max-width:1240px) {
+    .Container2 {
+        width: 100vw;
+    }
+}
+
+.Container3 {
+    display: flex;
+    width: 78vw;
+    height: 85vh;
+    margin: auto;
+    margin-top: -8%;
+    background-color: rgb(69, 69, 69);
+    box-shadow: 0px 3px 10px rgb(214, 214, 214);
+   
+    /* border: 1px solid rgb(247, 83, 83); */
+
+}
+
+.Container3 .form {
+    width: 54vw;
+    height: 85vh;
+    padding: 4%;
+    margin-top: 2%;
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+
+.Container3 .contInfo {
+    width: 24vw;
+    height: 85vh;
+    padding: 4%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    background-color: #ffe600;
+}
+
+input {
+    color: white;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    border-color: white;
+    background-color: rgb(69, 69, 69);
+    margin-bottom: 9%;
+    font-size: 1.3vw;
+    width: 22.5vw;
+    float: left;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ffe600;
+    background-color: rgb(69, 69, 69);
+}
+
+input::placeholder {
+    color: white;
+}
+
+input:focus::placeholder {
+    opacity: 0;
+}
+
+.form h2 {
+    font-size: 2.7vw;
+}
+
+.form #name {
+    margin-top: 8%;
+}
+
+.form #email {
+    margin-top: 8%;
+    margin-left: 5%
+}
+
+.form #subject {
+    margin-left: 5%
+}
+
+.form #msg {
+    width: 47.3vw;
+}
+.check{
+    width: 22.5vw;
+    height: 10vh;
+    background-color: rgb(248, 248, 248);
+}
+.form button{
+    height: 9vh;
+    width: 10.5vw;
+    border-radius: 8px;
+    background-color: #ffe600;
+    font-size: 1.7vw;
+    color: black;
+    font-weight: 600;
+    border: none;
+    margin-left: 76.7%;
+    
+}
+.contInfo h3{
+    color: black;
+    font-size: 2vw;
+}
+.contInfo img{
+    height: 6vh;
+    margin: auto;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+.mail{
+    text-align: center;
+    margin-top: 70%;
+}
+.contInfo .icons{
+    text-align: center;
+    margin-top: 80%;
+}

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/homePage.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/homepageMiddleSections.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/orbitAnime.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/navbar.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/courseCard.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+   <title>CareerCorp | Home</title>
+</head>
+<body>
+
+  <img alt="background-gradient" srcset="https://codehelp.s3.ap-south-1.amazonaws.com/mctmmnscw4snaoc9kmnn_b35808d374.svg 1x, https://codehelp.s3.ap-south-1.amazonaws.com/mctmmnscw4snaoc9kmnn_b35808d374.svg 2x" 
+      src="https://codehelp.s3.ap-south-1.amazonaws.com/mctmmnscw4snaoc9kmnn_b35808d374.svg"
+      decoding="async" data-nimg="intrinsic" class="animate-wiggle" 
+      style="position: absolute; inset: 0px; box-sizing: border-box; 
+      padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; 
+      min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"/>
+
+    <nav id="navbar">
+        <div id="logo">
+            <img src="./media/cclogo.jpg" alt="website logo">
+        </div>
+        <ul>
+        <li class="item"><a href="./index.html">Home</a></li>
+        <li class="item"><a href="./CC Web AboutUs Page/about.html">About</a></li>
+        <li class="item"><a href="#Courses">Courses</a></li>
+        <li class="item"><a href="#Games">Games</a></li>
+        <li class="item"><a href="./html/contactUs.html">Contact</a></li>
+
+        </ul>
+        <div style="display: flex; flex-direction: row; flex-wrap: wrap; height: min-content;">
+            <div class="btn">Dashboard</div>
+            <div class="btn">Login</div>
+        </div>
+    </nav>
+
+    <div class= "homePage">
+
+        <section class="headerIntroSection">
+
+            <img src="./media/headerIllustrationImage.webp" id="headerIllustractionImg" />
+
+            <div class="introSecTextContent">
+                <span class="text-type-animation"><strong> Learn With </strong>  <span
+                        class="txt-rotate"
+                        data-period="2000"
+                        data-rotate='[ " CareerCorp ", " passion " ]'></span>
+                </span>
+
+                <div id="subHeading">The Ultimate Guide To Ace Your Skills.</div>
+                
+                <div class="actionButtons">
+                    <a id="buttonFilledRound" href="G:/client%20projects/CC%20New%20Site/index.html">Explore Courses</a>
+                    <a id="buttonOutlinedRound" href="G:/client%20projects/CC%20New%20Site/index.html">Watch Video</a>
+                </div> 
+
+                <div class="studentsCountSection">
+
+                    <div id="studentProfiles">
+
+                        <img class="studsOverlayingProfiles"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC_lajb9jmvZMBb1PYtDtTPmhcQQ1taDFnUQ&usqp=CAU" />
+                        <img class="studsOverlayingProfiles" style="right: 1.5rem;" src="data:image/jpeg;base64,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" />
+                        <img class="studsOverlayingProfiles" style="right: 3rem;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC_lajb9jmvZMBb1PYtDtTPmhcQQ1taDFnUQ&usqp=CAU" />
+                        <img class="studsOverlayingProfiles" style="right: 4.5rem;" src="data:image/jpeg;base64,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" />
+
+                    </div>
+                    <div id="studentCounts">
+                        <div id="countNumber">2000+</div>
+                        <div id="studCountSubText">Happy Students</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+                    <!-- Middle Section Start-->
+
+                    <div id="wrapper">
+
+                        <div class="yellow-background">
+                            <!-- Subscriber -->
+                
+                            <div class="insta card">
+                                <div class="followers">
+                                    3k+ 
+                                </div>   
+                                 
+                                Follower <br>
+                                <a href="#">On Instagram</a>
+                                
+                            </div>
+                            <div class="linkedin card">
+                
+                                <div class="followers">
+                                    3k+ 
+                                </div>   
+                                Follower <br>
+                                <a href="#">On LinkedIn</a>
+                
+                            </div>
+                            <div class="twitter card">
+                                <div class="followers">
+                                    3k+ 
+                                </div>   
+                                Follower <br>
+                                <a href="#">On Twitter</a>
+                
+                            </div>
+                            <div class="twitter card">
+                                <div class="followers">
+                                    3k+ 
+                                </div>   
+                                Follower <br>
+                                <a href="#">On Twitter</a>
+                
+                            </div>
+                
+                            
+                        </div>
+                
+                        <!-- Heading -->
+                        <div class="heading">
+                            <h3 class="h1">WHY CODE-HELP?</h3>
+                            <h1 class="h2">Making learning easier and <br>
+                                more convenient for you</h1>
+                        </div>
+                
+                        <!-- Cards -->
+                
+                        <div class="Container box">
+                           <div class="Box" id="box1">  
+                                <h2 class="head">Data Structure</h2>
+                                <p class="content">
+                                    Data structures are the problem-solving pillars of coding. Learn all the foundational knowledge about all of the popular data structure that you need, to be well-versed in interviews. 
+                                </p>
+                           </div>
+                           <div class="Box" id="box2">
+                                <h2 class="head">Placement Preparation</h2>
+                                <p class="content">
+                                    Ace the placement interviews by being knowledgeable in all well-known data structures, popular problem-solving methods, and core computer sciences.
+                                </p>
+                           </div>
+                           <div class="Box" id="box3">
+                                <h2 class="head">Hand Picked Question</h2>
+                                <p class="content"> Get access to hand-picked coding interview questions across categories & difficulty levels that will prepare you for every interview you would encounter. 
+                                </p>
+                           </div>
+                           <div class="Box" id="box4">
+                                <h2 class="head">Curated Content</h2>
+                                <p class="content"> Learn in-depth conceptual overviews, how to approach an algorithm, how to implement it & how to optimize it. 
+                                </p>
+                           </div>
+                           <div class="Box" id="box5">
+                                <h2 class="head">Learn from the best</h2>
+                                <p class="content">
+                                    Get access to lectures and get mentored by one of the best in the market, Love Babbar. 
+                                </p>
+                           </div>
+                           <div class="Box" id="box6">
+                                <h2 class="head">Learn Something new</h2>
+                                <p class="content">
+                                    Learn new concepts daily, increase your productivity & reach your full potential. 
+                                </p>
+                           </div>
+                           
+                        </div>
+                
+                        <!-- Container 2 -->
+                        <div class="Container2">
+
+                            <div style="width: 100%;">
+                                
+                                <h1 class="H" >Meet your <span class="yellow">Instructor</span></h1>
+                                <!-- <button class="Button" style="position: relative; float: right;">Know more</button> -->
+                            </div>
+
+                            <br><br>
+                            <br><br>
+
+                            <img class="image" src="./media/Founder.jpeg" alt="Founder'Career corps">
+                            <h1 class="Name">Raj Rathaur</h1>
+                            <h2 class="CC">Founder,Career Corps</h2>
+
+                            <br><br><br><br>
+
+                            <div class="Container3">
+                                <!-- <div class="A">     -->
+                                    <img class="log" src="./media/amazon.webp" alt="amazon logo">
+                                    <img class="Micro" src="./media/RWCZER.webp" alt="Microsoft logo">
+                                    <img class="logo" src="./media/Google.webp" alt="Google logo">
+                                <!-- </div> -->
+                             
+                            </div>
+                        </div>
+                    </div>
+                
+        
+                    <!-- Middle Section End-->
+
+                    <section class="placementSection">
+
+                        <div id="sectionTag">
+                            PLACEMENTS
+                        </div>
+                        <div id="heading">
+                            Get Offers from
+                            Top Companies
+                        </div>
+
+                        <div id="subHeading">
+                            Our finest get offers from top-notch companies.
+                        </div>
+
+                        <div style="display:flex;flex-direction: column;align-content: center;align-items: center;justify-content: center;position: relative;left: -1.5rem;">
+                        <div id="circle-orbit-container">
+
+                            <!-- Circles closest to the central point -->
+                            <div id="inner-orbit">
+                            <div class="inner-orbit-cirlces"></div>
+                            </div>
+                        
+                            <!-- Circles second closest to the central point -->
+                            <div id="middle-orbit">
+                            <div class="middle-orbit-cirlces"></div>
+                            </div>
+                        
+                            <!-- Circles furthest away to the central point -->
+                            <div id="outer-orbit">
+                            <div class="outer-orbit-cirlces"></div>
+                            </div>
+                    </section>
+                        
+                        <br><br><br>
+                        <h1 class="Container2 " style="background-color: transparent; margin-top: 0px;">
+                            What would you like to learn
+                        </h1>
+
+                        <div class="courseCardsSection">
+
+                            <div class="courses">
+                            <div class="card">
+                                <div class="image-box">
+                                  <img src="https://s3.amazonaws.com/coursesity-blog/2020/07/data-structure-algorithm-courses.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                  <span class="tag">Intermediate</span>
+                                  <h2 class="card-title">Data structureand algorithm</h2>
+                                  <small class="sub-title">Lorem, ipsum dolor.</small>
+                                  <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                  <div class="price-box">
+                                    <p class="price">423</p>
+                                    <p class="old-price">533</p>
+                                  </div>
+                                  <button class="btn">Learn now</button>
+                                </div>
+                              </div>
+
+                              <div class="card">
+                                <div class="image-box">
+                                  <img src="https://s3.amazonaws.com/coursesity-blog/2020/07/data-structure-algorithm-courses.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                  <span class="tag">Intermediate</span>
+                                  <h2 class="card-title">Data structureand algorithm</h2>
+                                  <small class="sub-title">Lorem, ipsum dolor.</small>
+                                  <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                  <div class="price-box">
+                                    <p class="price">423</p>
+                                    <p class="old-price">533</p>
+                                  </div>
+                                  <button class="btn">Learn now</button>
+                                </div>
+                              </div>
+
+                              <div class="card">
+                                <div class="image-box">
+                                  <img src="https://s3.amazonaws.com/coursesity-blog/2020/07/data-structure-algorithm-courses.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                  <span class="tag">Intermediate</span>
+                                  <h2 class="card-title">Data structureand algorithm</h2>
+                                  <small class="sub-title">Lorem, ipsum dolor.</small>
+                                  <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                  <div class="price-box">
+                                    <p class="price">423</p>
+                                    <p class="old-price">533</p>
+                                  </div>
+                                  <button class="btn">Learn now</button>
+                                </div>
+                              </div>
+
+
+                              <div class="card">
+                                <div class="image-box">
+                                  <img src="https://s3.amazonaws.com/coursesity-blog/2020/07/data-structure-algorithm-courses.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                  <span class="tag">Intermediate</span>
+                                  <h2 class="card-title">Data structureand algorithm</h2>
+                                  <small class="sub-title">Lorem, ipsum dolor.</small>
+                                  <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                  <div class="price-box">
+                                    <p class="price">423</p>
+                                    <p class="old-price">533</p>
+                                  </div>
+                                  <button class="btn">Learn now</button>
+                                </div>
+                              </div>
+
+
+                              <div class="card">
+                                <div class="image-box">
+                                  <img src="https://s3.amazonaws.com/coursesity-blog/2020/07/data-structure-algorithm-courses.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                  <span class="tag">Intermediate</span>
+                                  <h2 class="card-title">Data structureand algorithm</h2>
+                                  <small class="sub-title">Lorem, ipsum dolor.</small>
+                                  <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                  <div class="price-box">
+                                    <p class="price">423</p>
+                                    <p class="old-price">533</p>
+                                  </div>
+                                  <button class="btn">Learn now</button>
+                                </div>
+                              </div>
+
+
+                              <div class="card">
+                                <div class="image-box">
+                                  <img src="https://s3.amazonaws.com/coursesity-blog/2020/07/data-structure-algorithm-courses.png" alt="">
+                                </div>
+                                <div class="card-content">
+                                  <span class="tag">Intermediate</span>
+                                  <h2 class="card-title">Data structureand algorithm</h2>
+                                  <small class="sub-title">Lorem, ipsum dolor.</small>
+                                  <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                  <div class="price-box">
+                                    <p class="price">423</p>
+                                    <p class="old-price">533</p>
+                                  </div>
+                                  <button class="btn">Learn now</button>
+                                </div>
+                              </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+    </div>
+
+    <div class="footerWrapper">
+    <div class="container5">
+
+        <div class="footer">
+            <div class="left">
+                <img src="./media/logo.jpeg" alt="">
+                <h3>Career Corps</h3>
+                <p>The Ultimate Guide To Ace SDE Interviews</p>
+            </div>
+            <div class="mid">
+                <div class="menu">
+                    <h3>MENU</h3>
+                    <ul>
+                        <a href="./index.html"><li>Home</li></a>
+                        <a href="./CC Web AboutUs Page/about.html"><li>About Us</li></a>
+                        <a href=""><li>Courses</li></a>
+                        <a href="./html/contactUs.html"><li>Contact</li></a>
+                    </ul>
+                </div>
+                <div class="services">
+                    <h3>SERVICES</h3>
+                    <ul>
+                        <a href=""><li>Privacy Policy</li></a>
+                        <a href=""><li>Terms of use</li></a>
+                        <a href=""><li>Refund Policy</li></a>
+                    </ul>
+    
+                </div>
+    
+            </div>
+            <div class="right">
+                <h3>GET IN TOUCH</h3>
+                <p>Email: </p><a href="">support@careercorps.in</a>
+    
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+
+    <script src="./js/homePageTextAnimation.js" ></script>
+    
+</body>
+</html>
